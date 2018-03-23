@@ -8,11 +8,13 @@ SOURCES += main.cpp \
     line.cpp \
     point.cpp \
     rectangle.cpp \
-    form.cpp
+    form.cpp \
+    menu.cpp
 
 HEADERS += \
     circle.h \
     line.h \
     point.h \
     rectangle.h \
-    form.h
+    form.h \
+    menu.h

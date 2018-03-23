@@ -21,6 +21,6 @@ Circle::Circle(Point tl, Point br, color::colorList cl) : Form(tl, br, cl)
 void Circle::printInfo(){
     cout << "Circle" << endl;
     cout << "Top left point : " << _topLeft.toString() << endl;
-    cout << "Bottom right point " << _bottomRight.toString() << endl;
+    cout << "Bottom right point : " << _bottomRight.toString() << endl;
     cout << "Color : " << color::toString(_color) << endl << endl;
 }
