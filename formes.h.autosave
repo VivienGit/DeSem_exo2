@@ -1,0 +1,37 @@
+#ifndef FORMES_H
+#define FORMES_H
+
+#include <string>
+#include "point.h"
+
+using namespace std;
+
+namespace color {
+    enum colorList
+    {
+        blue, purple, yellow
+    };
+    
+    s
+}
+
+enum Color {blue, purple, yellow};
+
+class Formes
+{
+    public:
+        Formes(Point p1, Point p2, );
+        void setP1(Point p1);
+        void setP2(Point p2);
+        Point getP1();
+        Point getP2();
+        void setColor(Color color);
+        Color getColor();
+        void printInfo();
+    protected:
+        Point point1;
+        Point point2;
+        Color col;
+};
+
+#endif // FORMES_H
